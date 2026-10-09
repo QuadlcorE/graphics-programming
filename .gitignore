@@ -1,0 +1,60 @@
+# ==========================================
+# C++ Build Artifacts & Binaries
+# ==========================================
+/build/
+/bin/
+/obj/
+/out/
+Debug/
+Release/
+x64/
+x86/
+
+# Compiled object files & libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Final Executables
+*.exe
+*.out
+*.app
+
+# ==========================================
+# Build System Cache & Generated Files
+# ==========================================
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeUserPresets.json
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Premake
+.premake/
+*.make
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.xcworkspace
+*.xcodeproj
+
+# GNU Make (Generic overrides if needed)
+# (Note: Standard Makefile is usually tracked, but system-generated ones are ignored above)
+
+# ==========================================
+# IDEs, Editors & System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
